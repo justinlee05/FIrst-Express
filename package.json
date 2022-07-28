@@ -14,7 +14,6 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "prestart": "tsc",
-    "start": "nodemon --exec ts-node dist/www.js"
+    "start": "node dist/www.js"
   }
 }
