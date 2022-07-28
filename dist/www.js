@@ -5,6 +5,6 @@ var http_1 = require("http");
 var port = Number(process.env.PORT) || 3000;
 var server = (0, http_1.createServer)(app_1.default);
 server.listen(port, function () {
-    console.log("".concat(port, "\uD3EC\uD2B8 \uC11C\uBC84 \uB300\uAE30 \uC911asdfasdf!"));
+    console.log("server activated on port ".concat(port, "."));
 });
 exports.default = server;
