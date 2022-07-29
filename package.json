@@ -16,6 +16,6 @@
   "scripts": {
     "build":"tsc",
     "upload":"git push heroku main",
-    "start": "node dist/www.js"
+    "start": "node dist/bin/www.js"
   }
 }
